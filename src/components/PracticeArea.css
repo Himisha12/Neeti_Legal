@@ -1,0 +1,276 @@
+
+.practiceText h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    opacity: 0;
+    /* color: #27206f; */
+    /* background: linear-gradient(286.05deg, #1B0B48 53.99%,
+     #9747FF 42.69%,
+     #1F1499 50.91%,
+     #9731BE 50.16%,
+     #9930BE 97.69%,
+     #2B54BF 100%); */
+     background: linear-gradient(286.05deg, 
+    
+     #6367BB 80%,  /* Starting color */
+    #16214F 20%,    /* Lighter shade of blue */
+    #1F1499 40%,    /* Medium blue */
+    #2B54BF 60%,    /* Darker blue */
+    #1B0B48 80%, /* Another shade of blue */
+    #31358D 100%   /* Final darker blue */
+);
+    background-size: 1000% 1000%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For non-webkit browsers */
+    color: transparent; 
+    animation: slideFromLeft 1s ease forwards, glow 2s infinite linear alternate; /* Apply animation and glow */
+}
+.practiceText {
+    /* display: block; */
+    margin-top: 30px;
+    width: 400px;
+    overflow: hidden; /* Hide overflow to ensure animations are not visible outside */
+}
+
+@keyframes slideFromLeft {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideFromRight {
+    0% { transform: translateX(100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+
+#our {
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 0s;
+    margin-left: 0%;
+}
+
+#practice {
+    animation: slideFromRight 1s ease forwards;
+    animation-delay: 1s; /* Delay practice animation to start after 'our' */
+    margin-left: 30px;
+}
+
+#area {
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 2s; /* Delay area animation to start after 'practice' */
+    margin-left: 80px;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.boxes {
+    display: grid;
+    width: 700px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+} */
+.practicecontainer {
+    display: flex;
+    justify-content: center; /* Center align the practice area */
+    flex-direction: row;
+    gap: 20px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the right */
+    width: 700px;
+    /* gap: 20px; */
+}
+.row1, .row2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box {
+    width: calc(50% - 10px);
+    /* width: 350px; */
+    height: 340px;
+    padding: 32px ;
+    gap: 8px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    background-color: #ddd;
+    border-radius: 24px;
+    position: relative;
+}
+
+.box:hover {
+    width: calc(50% - 10px);
+    /* width: 350px; */
+    height: 500px;
+    padding: 32px ;
+    gap: 8px;
+    border-radius: 24px ;
+    opacity: 0.9; /* Adjust opacity on hover */
+}
+.box.shift-up {
+    transform: translateY(-50%);
+  }
+  #box1:hover ~ #box4 {
+    transform: translateY(-50%);
+  }
+  #box2:hover ~ #box3 {
+    transform: translateY(-50%);
+  }
+  #box3:hover, #box4:hover {
+    transform: translateY(-35%);
+  }
+#box1,
+#box4 {
+    background-color: #31358D;
+    color: white;
+}
+
+#box2,
+#box3 {
+    background-color: #6367BB;
+    color: white;
+}
+
+.text {
+    font-size: 12px;
+}
+.text:hover {
+    overflow: visible; /* Show full text on hover */
+}
+
+.hidden-text {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    padding-right: 15px;
+}
+
+#box1:hover .hidden-text, #box2:hover .hidden-text, #box3:hover .hidden-text , #box4:hover .hidden-text{
+    display: block;
+}
+.box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -10px; /* Move the image below the text */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 0.3s ease;
+}
+#box1:hover .box img {
+    bottom: -10px; /* Move the image below the hidden text */
+}
+#box2:hover .box img{
+    bottom: -2px;
+}
+
+   #box1:hover {
+    height: 500px; /* Adjust the height as needed */
+  }
+  
+  #box1:hover .hidden-text,
+  #box1:hover .box img {
+    display: block;
+  }
+  #box1 img{
+    height: 170px;
+    
+  }
+  
+  #box1:hover ~ #box3 {
+    height: 162px;
+    overflow: hidden;
+  }
+  
+  #box1:hover ~ #box3 .hidden-text,
+  #box1:hover ~ #box3 .box img {
+    display: none;
+  }
+  .pracfoot{
+    position: absolute;
+    top: 150vh;
+    width: 100%;
+    height: 80vh;
+  }
+  @media screen and (max-width: 360px){
+    .pracfoot{
+        top: 170% !important;
+        margin-top: 320px !important;
+    }
+    .box p{
+        font-size: 7.6px !important;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .pracfoot{
+        top: 50% !important;
+    }
+  }
+  @media screen and (max-width: 390px){
+    .pracfoot{
+        height: 0vh;
+        top: 135%;
+    }
+    .box p{
+        text-align: justify;
+        font-size: 8.2px;
+    }
+  }
+ 
+  @media screen and (max-width: 412px){
+    .box p{
+        font-size: 8.2px;
+    }
+  }
+  @media screen and (max-width: 414px){
+    .pracfoot{
+        top: 175% !important;
+    }
+  }
+
+  @media screen and (max-width: 430px){
+    .pracfoot{
+        height: 0vh;
+        top: 120% ;
+    }
+    .box p{
+        text-align: justify;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .practiceText{
+        position: absolute;
+        margin-left: 140px;
+        
+    }
+    .practiceText h1{
+        font-size: 50px;
+    }
+    .boxes{
+        position: relative;
+        margin-top: 250px;
+    }
+    .box h4{
+        font-size: 15px;
+    }
+    .box p{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 896px){
+    .pracfoot{
+        top: 0%;
+    }
+  }

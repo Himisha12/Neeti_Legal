@@ -1,0 +1,100 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans Symbols', sans-serif; /* Use Noto Sans Symbols font as the default */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: white    ; 
+    color: #d5984e; /* Lustrous Gold */
+    text-align: left;
+    padding: 5px ; 
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+
+
+
+nav {
+    background-color: white; 
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #16214f ; /* White */
+    text-align: center;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-size: 25px; /* Adjust the font size */
+    position: relative;
+    font-family: 'Noto Sans Symbols', serif;
+
+}
+@media screen and (max-width: 768px) {
+    nav {
+        overflow: auto;
+    }
+    nav a {
+        float: none;
+        display: block;
+        /* padding: 10px 15px; */
+        padding: 0px 5px;
+    }
+}
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    nav a {
+        padding: 10px 10px;
+    }
+}
+nav a:hover {
+    background-color: #ededed ; 
+}
+nav a.active {
+    border-bottom: 2px solid #d5984e; /* Color of the underline for the active link */
+}
+nav a:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: #d5984e; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+section {
+    padding: 20px;
+    background-color: #fff; /* White */
+    border: 1px solid #ddd; /* Light Gray border */
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #16214f; /* Midnight Blue */
+    color: #d5984e; /* Lustrous Gold */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

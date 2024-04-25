@@ -1,0 +1,9 @@
+@media screen and (max-width: 896px){
+    .termsfooter{
+        position: relative;
+        top: -120vh;
+    }
+    .termssec1{
+        margin: 20px !important;
+    }
+}

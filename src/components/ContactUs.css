@@ -1,0 +1,288 @@
+
+  .container {
+    width: 70%;
+    height: 110vh;
+    margin: 50px auto;
+    background-color: #16214F;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  @media screen and (max-width: 896px){
+    .container{
+      width: 90%;
+    }
+    #contactForm{
+      left: 0% !important;
+      top: -30vh !important;
+      align-items: center;
+    }
+    input[type="text"]{
+      width: 50% !important;
+    }
+    button{
+      position: relative;
+      width: 30% !important;
+      left: -30%;
+    }
+    #contactForm h6{
+      position: relative;
+      left: 45% !important;
+      width: 80%;
+    }
+
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+  }
+  input[type="text"]{
+    width: 40%;
+    text-align: center;
+  }
+  input[type="email"]{
+    width: 60%;
+    text-align: center;
+  }
+  textarea{
+    width: 60%;
+    height: 20vh;
+    outline: none;
+    text-align: center;
+  }
+
+
+
+  #nam{
+    color: #fff;
+  }
+  #contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-left: 20%;
+    margin-top: -4%; */
+    position: relative;
+    left: 20%;
+    top: -45%;
+    z-index: 2;
+  }
+  #contactForm h6{
+    color: white;
+    left: 0%;
+    margin-right: 300px;
+    text-align: center;
+  }
+  button{
+    /* align-items: center; */
+    width: 20%;
+    margin-inline-start: 200px;
+    border: none;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 45px;
+    margin-top: 20px;
+
+  }
+  @keyframes bubble {
+    from{
+
+    }
+    to{
+      transform: scale(8.5) translateX(38px) translateY(43px);
+      /* transform: translateX(50px); */
+
+    }
+  }
+
+  .bubble{
+    width: 100px;
+    height: 100px;
+   border-radius: 50%;
+   background-image: linear-gradient(white,#8674F2,#2F16C7);
+   position: relative;
+   left: 40%;
+   top:-100px ;
+   animation-name: bubble;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction:alternate-reverse;
+   z-index:0;
+  }
+
+  #bub1{
+   left:-9%;
+   top:79%;
+   animation-name: bubble1;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction:alternate-reverse;
+   animation-delay:3s;
+  }
+  #bub2{
+    left:100%;
+    top:61%;
+    animation-name: bubble1;
+   animation-duration: 3s;
+   animation-delay: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction:alternate-reverse;
+  }
+  @keyframes bubble1 {
+    from{
+
+    }
+    to{
+      transform: scale(2.5) ;
+      /* transform: translateX(50px); */
+
+    }
+  }
+  .getintouchText{
+    font-size: 56px;
+    color: #16214F;
+    margin-top: 70px;
+    margin-left: 35px;
+  }
+  .con1area{
+    display: flex;
+    flex-direction: row;
+  }
+  .con1area img{
+    width: 60%;
+  }
+  .con2 p{
+    margin: 40px;
+    text-align: justify;
+  }
+  .map{
+    display: flex;
+    flex-direction: row;
+  }
+  .offices{
+    padding: 10px;
+    /* margin-left: 30px; */
+    height: 600px;
+    width: 500px;
+  }
+  .offices h2{
+    padding: 20px;
+    color: #16214F;
+    text-align: center;
+  }
+  .lineoffice{
+    border-bottom: black .5px solid;
+  }
+  .offices h4{
+    margin: 30px;
+  }
+  .offices p{
+    margin-left: 30px;
+  }
+  .mapframe{
+    width: 80%;
+  }
+  .offices a{
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .directionicon{
+    height: 30px;
+    width: 30px;
+  }
+  
+  @media screen and (max-width: 896px){
+    .offices{
+      width: 30%;
+    }
+    .mapframe iframe{
+      width: 300px;
+    }
+    
+    .offices a{
+      margin: 2px;
+    }
+    .directionicon{
+      height: 20px;
+      width: 20px;
+    }
+    .offices h2{
+      font-size: 16px;
+      padding: 10px;
+    }
+    .offices h4{
+      margin-top: 10px !important;
+      margin: 5px;
+      text-align: center;
+      font-size: 13px;
+    }
+    .offices p{
+      margin: 4px;
+      font-size: 11px;
+      margin-top: 10px ;
+      margin-bottom: 10px;
+    }
+    .getintouchText{
+      font-size: 25px;
+      margin-left: 40px;
+      margin-top: 0px;
+    }
+    .con1area img{
+      position: relative;
+      height: 200px;
+      top: 50px;
+    }
+    .container{
+      height: 80vh;
+    }
+    .con2 p{
+      font-size: 10px;
+      margin: 2px;
+      margin-left: 8px;
+    }
+    .contactfooter{
+      top: 0%;
+      height: 0% !important;
+      position: relative;
+    }
+  }
+  @media screen and (max-width: 375px){
+    #contactForm{
+      top: -50% !important;
+    }
+    .container{
+      height: 94vh;
+    }
+    .mapframe iframe{
+      width: 270px;
+    }
+  }
+  @media screen and (max-width: 390px){
+    #contactForm{
+      top: -45% !important;
+    }
+    .mapframe iframe{
+      width: 280px;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .mapframe iframe{
+      width: 260px;
+    }
+    .getintouchText{
+      margin-left: 30px;
+    }
+  }

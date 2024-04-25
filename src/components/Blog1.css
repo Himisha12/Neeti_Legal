@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 896px){
+    .blog1date{
+        top: 10% !important;
+        font-size: 12px;
+    }
+    .blog1sec1{
+        height: 250px !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .blog1head{
+        font-size: 10px;
+        position: relative;
+    }
+    .blog1text{
+        margin: 20px !important;
+    }
+    .blog1text p{
+        font-size: 10px;
+    }
+    .blog1text h3{
+        font-size: 16px;
+    }
+    .blog1footer{
+        position: relative;
+        top: -125vh;
+    }
+}

@@ -41,14 +41,13 @@ nav a {
     font-family: 'Noto Sans Symbols', serif;
 
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     nav {
         overflow: auto;
     }
     nav a {
         float: none;
         display: block;
-        /* padding: 10px 15px; */
         padding: 0px 5px;
     }
 }
@@ -62,7 +61,7 @@ nav a {
     nav a {
         padding: 10px 10px;
     }
-}
+} */
 nav a:hover {
     background-color: #ededed ; 
 }

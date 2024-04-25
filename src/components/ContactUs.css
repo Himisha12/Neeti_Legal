@@ -9,7 +9,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
-  @media screen and (max-width: 896px){
+  /* @media screen and (max-width: 896px){
     .container{
       width: 90%;
     }
@@ -32,7 +32,7 @@
       width: 80%;
     }
 
-  }
+  } */
   input[type="text"],
   input[type="email"],
   textarea {
@@ -204,7 +204,7 @@
     width: 30px;
   }
   
-  @media screen and (max-width: 896px){
+  /* @media screen and (max-width: 896px){
     .offices{
       width: 30%;
     }
@@ -258,8 +258,8 @@
       height: 0% !important;
       position: relative;
     }
-  }
-  @media screen and (max-width: 375px){
+  } */
+  /* @media screen and (max-width: 375px){
     #contactForm{
       top: -50% !important;
     }
@@ -269,8 +269,8 @@
     .mapframe iframe{
       width: 270px;
     }
-  }
-  @media screen and (max-width: 390px){
+  } */
+  /* @media screen and (max-width: 390px){
     #contactForm{
       top: -45% !important;
     }
@@ -285,4 +285,4 @@
     .getintouchText{
       margin-left: 30px;
     }
-  }
+  } */

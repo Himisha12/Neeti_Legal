@@ -12,7 +12,7 @@
     padding-top: 50px;
   }
   
-  @media screen and (max-width: 768px){
+  /* @media screen and (max-width: 768px){
     .image1{
       margin-top: 20px;
       width: 60%;
@@ -31,7 +31,7 @@
       flex-direction: row;
       text-align: center;
   }
-  }
+  } */
   .expertiseAreas {
     display: flex;
     padding: 30px;
@@ -125,7 +125,7 @@
     color: #16214f;
   }
 
-  @media screen and (max-width: 768px){
+  /* @media screen and (max-width: 768px){
     .expertise1{
       align-items: center;
       justify-content: center;
@@ -145,7 +145,6 @@
     }
     .expertiseText{
       font-size: 10px;
-      /* margin-left: 0px; */
       text-align: center;
     }
    .about2{
@@ -190,8 +189,8 @@
     text-align: center;
     color: #16214f;
     font-weight: bold;
-  }
-  @media screen and (max-width: 768px){
+  } */
+  /* @media screen and (max-width: 768px){
     .foundersection{
       display: flex;
       flex-direction: column;
@@ -231,8 +230,8 @@
     .aboutfooter{
       height: 0% !important;
     }
-  }
-  @media screen and (max-width: 896px){
+  } */
+  /* @media screen and (max-width: 896px){
     .lay{
       width: 33.5vh !important;
       height: 25vh !important;
@@ -248,7 +247,7 @@
       height: 100px !important;
       left: 60% !important;
     }
-  }
+  } */
 
   .containar{
     width: calc(50% - 65px);
@@ -284,7 +283,7 @@
     margin-left: -20px;
     color: white;
 }
-@media screen and (max-width: 390px){
+/* @media screen and (max-width: 390px){
   .about3{
     width: 100px;
     height: 100px;
@@ -324,8 +323,8 @@
   }.fcontainer2 p{
     top: 70% !important;
   }
-}
-@media screen and (max-width: 360px){
+} */
+/* @media screen and (max-width: 360px){
   .about3{
     position: relative;
     width: 100px !important;
@@ -341,8 +340,8 @@
   .aboutText p{
     text-align: justify;
   }
-}
-@media screen and (max-width: 375px){
+} */
+/* @media screen and (max-width: 375px){
   .about3{
     width: 100px !important;
     height: 100px !important;
@@ -364,7 +363,7 @@
   .fcontainer2 p{
     top: 69% !important;
   }
-}
+} */
 
 
 .founder1, .founder2{

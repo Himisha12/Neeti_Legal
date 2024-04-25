@@ -10,16 +10,14 @@
     font-weight: bold;
     font-size: 50px;
 }
-@media screen and (max-width: 896px){
+/* @media screen and (max-width: 896px){
     .ni1 h1{
         font-size: 22px;
         margin-top: 20px;
     }
     .blogs{
         flex-direction: column !important;
-        /* position: absolute; */
-        /* width: 100%;
-        height: 10%; */
+        
     }
     .blogsection2{
         top: -6.5vh;
@@ -73,8 +71,8 @@
         display: block;
     }
 
-}
-@media screen and (max-width: 375px){
+} */
+/* @media screen and (max-width: 375px){
     .blogcard{
         width: 40vh;
         height: 60vh;
@@ -90,8 +88,8 @@
         top: 0vh;
         height: 0vh !important;
     }
-}
-@media screen and (max-width: 390px){
+} */
+/* @media screen and (max-width: 390px){
     .bloghead{
         font-size: 14.5px !important;
     }
@@ -104,8 +102,8 @@
     .blogcard4{
         height: 50vh;
     }
-}
-@media screen and (max-width: 430px){
+} */
+/* @media screen and (max-width: 430px){
     .bloghead{
         font-size: 15.5px !important;
     }
@@ -120,8 +118,8 @@
         top: 0vh;
     }
 
-}
-@media screen and (max-width: 412px)
+} */
+/* @media screen and (max-width: 412px)
 {
     #bloghead4{
         width: 310px;
@@ -140,7 +138,7 @@
     #blogdetail4{
         width: 270px;
     }
-}
+} */
 .ni1 img{
     width: 50%;
 }

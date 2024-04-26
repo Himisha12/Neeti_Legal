@@ -69,6 +69,25 @@
   .contactLink:hover {
     transform: scale(1.1); /* Enlarge the contact link on hover */
   }
+  @media screen and (min-width: 1540px) {
+    .iconWrapper{
+      position: relative;
+      left: 10%;
+    }
+    .quicklinks{
+      position: relative;
+      left: 8%;
+      width: 1300px;
+    }
+    .inslink{
+      position: relative;
+      left: 1%;
+      width: 400px;
+    }
+    .iconWrapper{
+      width: 1000px;
+    }
+  }
   /* @media screen and (max-width: 768px) {
     .container7 {
       top: 157.5%;

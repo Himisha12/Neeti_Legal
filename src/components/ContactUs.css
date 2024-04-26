@@ -9,6 +9,23 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
+  @media screen and (min-width: 1540px) {
+    .con2 h1{
+      margin-left: 15%;
+    }
+    #contactForm{
+      top: -35% !important;
+    }
+    .container{
+      height: 70vh;
+    }
+    .mapframe iframe{
+      width: 1100px !important;
+    }
+    .contactfooter{
+      height: 0vh !important;
+    }
+  }
   /* @media screen and (max-width: 896px){
     .container{
       width: 90%;

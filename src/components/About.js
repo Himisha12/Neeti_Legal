@@ -173,7 +173,7 @@ const About = () => {
               <div class="lay">
                 <h2 className='founder1' style={{fontFamily: "Nanum Myeongjo, serif"}}>Rajat Kumar</h2>
               </div>
-                  <p style={{fontFamily: "Nanum Myeongjo, serif"}}><b style={{fontFamily: 'Playfair Display, serif', fontSize: '25px'}}>Advocate</b><br></br>
+                  <p style={{fontFamily: "Nanum Myeongjo, serif"}}><b style={{fontFamily: 'Playfair Display, serif', fontSize: '25px' }}>Advocate</b><br></br>
                     Supreme Court of<br></br> India, New Delhi<br></br>
                     Master of Business Laws, National <br></br>Law School of India University,<br></br> Bangalore <br></br>
                     B.A., LL.B (Hons.), LL.M.</p>

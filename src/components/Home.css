@@ -29,6 +29,8 @@
   height: 100%; 
   width: 100%;
 }
+
+
 /* @media screen and (max-width: 390px){
   .heading2{
     top: 100% !important;
@@ -69,6 +71,7 @@
     font-size: 28px;
   }
 } */
+
 .carousel-caption {
   text-align: center;
   position: absolute;
@@ -81,8 +84,30 @@
 
 .image5{
   position: absolute; 
-  top: 110%;
+  top: 110.5%;
   width: 50%;
+}
+@media screen and (min-width:1540px) {
+  .image5{
+    height: 120% !important; 
+    top: 120.5%;
+  }
+  .image6{
+    height: 130% !important;
+    top: -30% !important;
+  }
+  
+  .scrollBox{
+    left: 21% !important;
+    padding: 1.5% !important;
+  }
+  .scrollContent{
+    position: relative;
+    left: 2.5% !important;
+  }
+  .para{
+    padding-right: 1%;
+  }
 }
 .textContainer{
   position: relative;

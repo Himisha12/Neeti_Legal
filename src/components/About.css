@@ -11,7 +11,37 @@
     padding-right: 50px;
     padding-top: 50px;
   }
-  
+  @media screen and (min-width: 1540px) {
+    .aboutText{
+      margin-top: 5%;
+    }
+    .aboutText p{
+      margin-top: 10%;
+    }
+    .expertise1{
+      margin-left: 13%;
+    }
+    .accordion{
+      width: 600px !important;
+    }
+    .lay{
+      height: 35vh !important;
+      width: 106.4% !important;
+    }
+    .image-container{
+      top: 55% !important;
+      left: 32%;
+      width: 200px !important;
+      height: 200px !important;
+    }
+    .image-container2{
+      top: 34% !important;
+      left: 83%;
+    }
+    .aboutfooter{
+      height: 1vh!important;
+    }
+  }
   /* @media screen and (max-width: 768px){
     .image1{
       margin-top: 20px;
@@ -173,7 +203,7 @@
    .MuiAccordionDetails-root .accordionContent{
     font-size: 6px;
    }
-  }
+  } */
 
   .founders{
     background-color: #EFEFFC;
@@ -189,7 +219,7 @@
     text-align: center;
     color: #16214f;
     font-weight: bold;
-  } */
+  }
   /* @media screen and (max-width: 768px){
     .foundersection{
       display: flex;

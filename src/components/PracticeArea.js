@@ -5,8 +5,6 @@ import prac3 from '../image/prac3.png';
 import prac4 from '../image/prac4.png';
 import Practice from '../image/practice1.jpg'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import gold from '../image/practice2.jpg';
-import logo from '../image/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';

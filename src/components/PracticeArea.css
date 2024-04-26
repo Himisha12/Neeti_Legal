@@ -202,6 +202,13 @@
     width: 100%;
     height: 80vh;
   }
+  @media screen and (min-width: 1540px) {
+    .pracfoot{
+        top: 80%;
+        height: 0%;
+    }
+    
+  }
   /* @media screen and (max-width: 360px){
     .pracfoot{
         top: 170% !important;

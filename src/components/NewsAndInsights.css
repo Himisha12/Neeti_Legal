@@ -10,6 +10,18 @@
     font-weight: bold;
     font-size: 50px;
 }
+@media screen and (min-width: 1540px) {
+    .blogcard, .blogcard4{
+       max-width: 470px !important;
+    }
+    #dl2, #dl3{
+        position: relative;
+        top: 1.7vh;
+    }
+    .newsfooter{
+        height: 0vh !important;
+    }
+}
 /* @media screen and (max-width: 896px){
     .ni1 h1{
         font-size: 22px;

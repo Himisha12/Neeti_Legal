@@ -27,3 +27,8 @@
         top: -125vh;
     }
 } */
+@media screen and (min-width: 1540px) {
+    .blog2footer{
+        height: 0vh !important;
+    }
+}

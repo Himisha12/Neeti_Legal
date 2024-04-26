@@ -7,3 +7,8 @@
         margin: 20px !important;
     }
 } */
+@media screen and (min-width: 1540px) {
+    .termsfooter{
+        height: 0vh !important;
+    }
+}

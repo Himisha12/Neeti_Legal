@@ -74,7 +74,7 @@ const NewsAndInsights = () => {
             Running a successful business involves navigating a myriad of challenges, and legal issues are an inevitable part of the journey. Whether you're a startup entrepreneur or a seasoned business owner, recognizing when to seek legal aid ...
             </Typography>
           </CardContent>
-          <CardActions className='datelink'>
+          <CardActions className='datelink' id='dl2'>
             <Link to='/news-and-insights/five-signs-your-business-needs-legal-assistance-right-now' className='readButton' onClick={scrollToTop} style={{fontFamily: "Nanum Myeongjo, serif"}}>Read Full Article<ArrowRightAltIcon></ArrowRightAltIcon></Link>
             <p style={{marginLeft: '120px', marginTop: '10px', fontFamily: "Nanum Myeongjo, serif"}}  className='dateblog'>22nd Jan</p>
           </CardActions>
@@ -100,7 +100,7 @@ const NewsAndInsights = () => {
             As a small business owner, navigating the complexities of legal matters can often feel daunting. From contracts and intellectual property rights to employment issues and regulatory compliance, the need for legal guidance and support is undeniable...
             </Typography>
           </CardContent>
-          <CardActions className='datelink'>
+          <CardActions className='datelink' id='dl3'>
             <Link to='/news-and-insights/why-does-every-business-need-an-outsourced-legal-department?' className='readButton' onClick={scrollToTop} style={{fontFamily: "Nanum Myeongjo, serif"}}>Read Full Article<ArrowRightAltIcon></ArrowRightAltIcon></Link>
             <p style={{marginLeft: '120px', marginTop: '10px', fontFamily: "Nanum Myeongjo, serif"}}  className='dateblog'>22nd Jan</p>
           </CardActions>

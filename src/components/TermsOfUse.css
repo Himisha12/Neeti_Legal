@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 896px){
+@media screen and (max-width: 896px){
     .termsfooter{
         position: relative;
         top: -120vh;
@@ -6,7 +6,7 @@
     .termssec1{
         margin: 20px !important;
     }
-} */
+}
 @media screen and (min-width: 1540px) {
     .termsfooter{
         height: 0vh !important;

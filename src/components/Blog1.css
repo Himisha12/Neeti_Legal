@@ -1,4 +1,4 @@
-/* 
+
 @media screen and (max-width: 896px){
     .blog1date{
         top: 10% !important;
@@ -26,7 +26,7 @@
         position: relative;
         top: -125vh;
     }
-} */
+}
 @media screen and (min-width: 1540px) {
     .blog1footer{
         height: 0vh !important;

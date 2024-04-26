@@ -209,7 +209,7 @@
     }
     
   }
-  /* @media screen and (max-width: 360px){
+  @media screen and (max-width: 360px){
     .pracfoot{
         top: 170% !important;
         margin-top: 320px !important;
@@ -222,8 +222,8 @@
     .pracfoot{
         top: 50% !important;
     }
-  } */
-  /* @media screen and (max-width: 390px){
+  }
+  @media screen and (max-width: 390px){
     .pracfoot{
         height: 0vh;
         top: 135%;
@@ -232,9 +232,9 @@
         text-align: justify;
         font-size: 8.2px;
     }
-  } */
+  }
  
-  /* @media screen and (max-width: 412px){
+  @media screen and (max-width: 412px){
     .box p{
         font-size: 8.2px;
     }
@@ -253,9 +253,9 @@
     .box p{
         text-align: justify;
     }
-  } */
+  }
 
-  /* @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .practiceText{
         position: absolute;
         margin-left: 140px;
@@ -274,10 +274,10 @@
     .box p{
         font-size: 9px;
     }
-} */
-/* 
+}
+
 @media screen and (max-width: 896px){
     .pracfoot{
         top: 0%;
     }
-  } */
+  }

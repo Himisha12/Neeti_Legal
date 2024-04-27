@@ -248,6 +248,14 @@
     background: #d9d9d9;
     border: none;
   }
+  @media screen and (max-width: 1366px){
+    .iconWrapper{
+      margin-left: 280px;
+    }
+    .quicklinks{
+      margin-left: 50px;
+    }
+  }
   @media screen and (min-width: 1512px) {
     .iconWrapper{
       margin-left: 340px;

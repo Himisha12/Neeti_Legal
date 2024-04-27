@@ -298,6 +298,11 @@
       width: 280px;
     }
   }
+  @media screen and (max-width: 1366px){
+    .mapframe iframe{
+      width: 100%;
+    }
+  }
   @media screen and (min-width: 1512px){
     .contactpage{
       top: 7vh !important;

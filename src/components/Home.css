@@ -418,6 +418,14 @@
     top: 0% !important;
   }
 }
+@media screen and (max-width: 1366px){
+  .container6{
+    top: 18vh;
+  }
+  .footer{
+    top: 18vh !important;
+  }
+}
 .footer{
   top: 100px;
   position: relative;

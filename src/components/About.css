@@ -265,6 +265,17 @@
       height: 0% !important;
     }
   }
+  @media screen and (max-width: 1366px){
+    .image-container{
+      left: 31%;
+    }
+    .lay{
+      width: 107.5% !important;
+    }
+    .aboutfooter{
+      height: 0vh !important;
+    }
+  }
   @media screen and (min-width: 1512px) {
     .aboutpage{
       top: 7vh !important;

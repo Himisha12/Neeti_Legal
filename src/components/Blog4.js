@@ -12,7 +12,7 @@ const Blog4 = () => {
       };
 
     return(
-    <div>
+    <div className="blog4page">
                  <div
         style={{
           position: "relative",

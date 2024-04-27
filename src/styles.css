@@ -19,7 +19,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0% !important;
 }
 
 
@@ -41,7 +44,7 @@ nav a {
     font-family: 'Noto Sans Symbols', serif;
 
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     nav {
         overflow: auto;
     }
@@ -61,7 +64,7 @@ nav a {
     nav a {
         padding: 10px 10px;
     }
-} */
+}
 nav a:hover {
     background-color: #ededed ; 
 }
@@ -79,7 +82,14 @@ nav a:hover::after {
     left: 0;
 }
 
-
+@media screen and (min-width: 1512px){
+  header{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0% !important;
+  }
+}
 section {
     padding: 20px;
     background-color: #fff; /* White */

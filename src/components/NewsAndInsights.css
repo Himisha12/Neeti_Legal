@@ -1,3 +1,7 @@
+.newspage{
+    position: relative;
+    top: 5vh !important;
+}
 .ni1{
     padding: 10px;
     display: flex;
@@ -20,6 +24,18 @@
     }
     .newsfooter{
         height: 0vh !important;
+    }
+}
+@media screen and (min-width: 1512px){
+    .newsfooter{
+        height: 0vh !important;
+    }
+    .blogcard , .blogcard4{
+        max-width: 470px !important;
+    }
+    #dl2, #dl3{
+        position: relative;
+        top: 1.7vh;
     }
 }
 @media screen and (max-width: 896px){

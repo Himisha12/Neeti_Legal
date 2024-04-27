@@ -118,7 +118,7 @@ const About = () => {
   ];
   
   return (
-    <div >
+    <div className='aboutpage'>
       <div className='aboutSection'>
         <img src={aboutImage1} alt='aboutImage1' className='image1'></img>
         <div className='aboutText' style={{fontFamily: "Nanum Myeongjo, serif"}}>

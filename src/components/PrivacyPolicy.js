@@ -37,13 +37,13 @@ const PrivacyPolicy = () => {
   };
   
   return (
-    <div>
+    <div className='policypage'>
     <div style={{fontFamily: 'Nanum Myeongjo, serif', fontSize: '16px'}} >
     <div style={{ marginTop: '30px', }} className='policysec1'>
     <h1 style={{color: '#16214f',fontFamily: 'Nanum Myeongjo, serif', textAlign: 'center',}}>PRI<span style={underlineStyles}>VACY POL</span>ICY</h1>
     <br></br>
     <div style={{ marginRight: '70px', marginLeft: '70px'}} className='policysec1'>
-      <p style={{fontSize: '18px',}}>Welcome to <strong>Neeti Legal!</strong> This Privacy Policy governs the collection, use, disclosure, and retention of personal data and sensitive personal data <strong>(collectively referred to as "Information")</strong> by Neeti Legal <strong>(referred to as "we," "us," or "our").</strong> This Privacy Policy applies to anyone who accesses our website, <strong>"www.neetilegal.in" (the "Website"),</strong> or shares any Information with us, including Neeti Legal clients, employees, and staff. We prioritize your privacy and are committed to safeguarding your Information while ensuring its security. You can trust that we handle your data with the utmost care and respect.</p><br></br>
+      <p style={{fontSize: '18px',}}>Welcome to <strong>Neeti Legal!</strong> This Privacy Policy governs the collection, use, disclosure, and retention of personal data and sensitive personal data <strong>(collectively referred to as "Information")</strong> by Neeti Legal <strong>(referred to as "we," "us," or "our").</strong> This Privacy Policy applies to anyone who accesses our website, <strong><Link to='/home' style={{textDecoration: 'none'}}>"www.neetilegal.in"</Link>,</strong> or shares any Information with us, including Neeti Legal clients, employees, and staff. We prioritize your privacy and are committed to safeguarding your Information while ensuring its security. You can trust that we handle your data with the utmost care and respect.</p><br></br>
       <ol style={{fontSize: '18px'}}>
         <h4><li style={{color: '#16214f'}}><strong>Information We Collect</strong></li></h4>
         <p style={{fontSize: '18px'}}>We collect your Information when you access our website or communicate with us through email or other digital channels. This Information may include personal data as defined by applicable data protection laws. The Information we collect encompasses, but is not limited to, the following:</p>

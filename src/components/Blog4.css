@@ -1,4 +1,7 @@
-
+.blog4page{
+    position: relative;
+    top: 13vh;
+}
 @media screen and (max-width: 896px){
     .blog4sec1{
         height: 250px !important;
@@ -38,5 +41,13 @@
 @media screen and (min-width: 1540px) {
     .blog4footer{
         height: 0vh !important;
+    }
+}
+@media screen and (min-width: 1512px){
+    .blog4footer{
+        height: 0vh !important;
+    }
+    .blog4page{
+        top: 7vh !important;
     }
 }

@@ -1,4 +1,7 @@
-
+.blog3page{
+    position: relative;
+    top: 13vh;
+}
 @media screen and (max-width: 896px){
     .blog3sec1{
         height: 250px !important;
@@ -30,5 +33,13 @@
 @media screen and (min-width: 1540px) {
     .blog3footer{
         height: 0vh !important;
+    }
+}
+@media screen and (min-width: 1512px){
+    .blog3footer{
+        height: 0vh !important;
+    }
+    .blog3page{
+        top: 7vh !important;
     }
 }

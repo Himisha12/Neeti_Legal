@@ -25,7 +25,7 @@ const scrollToTop = () => {
 const NewsAndInsights = () => {
 
   return (
-    <div>
+    <div className='newspage'>
       <div className='ni1'>
         <h1 style={{fontFamily: 'Playfair Display, serif'}}>Unlocking Success: Insights, Tips, and More on Our Blogs</h1>
         <img src={Image1} alt='Blogs'></img>

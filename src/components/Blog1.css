@@ -1,4 +1,7 @@
-
+.blog1page{
+    position: relative;
+    top: 13vh;
+}
 @media screen and (max-width: 896px){
     .blog1date{
         top: 10% !important;
@@ -30,5 +33,13 @@
 @media screen and (min-width: 1540px) {
     .blog1footer{
         height: 0vh !important;
+    }
+}
+@media screen and (min-width: 1512px){
+    .blog1footer{
+        height: 0vh !important;
+    }
+    .blog1page{
+        top: 7vh !important;
     }
 }

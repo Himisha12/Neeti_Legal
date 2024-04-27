@@ -248,7 +248,14 @@
     background: #d9d9d9;
     border: none;
   }
-  
+  @media screen and (min-width: 1512px) {
+    .iconWrapper{
+      margin-left: 320px;
+    }
+    .quicklinks{
+      margin-left: 100px;
+    }
+  }
   @media (max-width: 768px) {
     .acceptButton {
       padding: 8px 16px;

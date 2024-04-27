@@ -180,7 +180,7 @@ const ContactUs = () => {
 `;
 
   return (
-    <div>
+    <div className='contactpage'>
        <div className='con1area' style={{fontFamily: "Nanum Myeongjo, serif"}}>
            <div className='con2'>
            <AnimatedH1 className='getintouchText' >GET IN TOUCH</AnimatedH1>

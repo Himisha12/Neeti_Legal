@@ -1,3 +1,7 @@
+.termspage{
+    position: relative;
+    top: 13vh !important;
+}
 @media screen and (max-width: 896px){
     .termsfooter{
         position: relative;
@@ -10,5 +14,13 @@
 @media screen and (min-width: 1540px) {
     .termsfooter{
         height: 0vh !important;
+    }
+}
+@media screen and (min-width: 1512px){
+    .termsfooter{
+        height: 0vh !important;
+    }
+    .termspage{
+        top: 7vh !important;
     }
 }

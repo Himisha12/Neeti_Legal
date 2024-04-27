@@ -1,4 +1,7 @@
-
+.contactpage{
+  position: relative;
+  top: 13vh !important;
+}
   .container {
     width: 70%;
     height: 110vh;
@@ -295,6 +298,23 @@
       width: 280px;
     }
   }
+  @media screen and (min-width: 1512px){
+    .contactpage{
+      top: 7vh !important;
+    }
+    .con2 h1{
+      margin-left: 10%;
+    }
+    #contactForm{
+      top: -40%;
+    }
+    .mapframe iframe{
+      width: 100%;
+    }
+    .contactfooter{
+      height: 0vh !important;
+    }
+  } 
   @media screen and (max-width: 360px){
     .mapframe iframe{
       width: 260px;

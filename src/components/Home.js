@@ -61,7 +61,7 @@ function Home() {
 
 
   return (
-    <div>
+    <div className="home">
       <div className="homeSection1">
         <Carousel>
           <Carousel.Item interval={1500}>

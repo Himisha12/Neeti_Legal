@@ -2,6 +2,10 @@
     width: 57%;
     height: 100%;
 }
+.aboutpage{
+  position: relative;
+  top: 13vh !important;
+}
 .aboutSection{
     display: flex;
     flex-direction: row;
@@ -259,6 +263,33 @@
     }
     .aboutfooter{
       height: 0% !important;
+    }
+  }
+  @media screen and (min-width: 1512px) {
+    .aboutpage{
+      top: 7vh !important;
+    }
+    .lay{
+      width: 106.5% !important;
+      height: 55vh !important;
+    }
+    .aboutText h1{
+      margin-top: 10%;
+    }
+    .aboutText p{
+      margin-top: 10%;
+    }
+    .expertise1{
+      margin-left: 10%;
+    }
+    .accordion{
+      width: 600px;
+    }
+    .image-container{
+      left: 33%;
+    }
+    .aboutfooter{
+      height: 0vh !important;
     }
   }
   @media screen and (max-width: 896px){

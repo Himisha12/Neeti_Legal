@@ -1,3 +1,7 @@
+.policypage{
+    position: relative;
+    top: 13vh !important;
+}
 @media screen and (max-width: 896px){
     .policyfooter{
         position: relative;
@@ -7,8 +11,17 @@
         margin: 20px !important;
     }
 }
+
 @media screen and (min-width: 1540px) {
     .policyfooter{
         height: 0vh !important;
+    }
+}
+@media screen and (min-width: 1512px){
+    .policyfooter{
+        height: 0vh !important;
+    }
+    .policypage{
+        top: 7vh !important;
     }
 }

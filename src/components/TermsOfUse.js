@@ -38,7 +38,7 @@ const TermsOfUse = () => {
   };
 
   return (
-    <div>
+    <div className='termspage'>
     <div style={{fontFamily: 'Playfair Display, serif'}} >
     <div style={{ marginTop: '30px',marginLeft: '70px',marginRight: '70px' }} className='termssec1'>
     <h1 style={{color: '#16214f',fontFamily: 'Nanum Myeongjo, serif', textAlign: 'center',}}>TER<span style={underlineStyles}>MS OF&nbsp;</span>USE</h1>

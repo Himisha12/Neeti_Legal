@@ -12,7 +12,7 @@ const Blog3 = () => {
       };
 
     return(
-        <div>
+        <div className="blog3page">
 
         <div
         style={{

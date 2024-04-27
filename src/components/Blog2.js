@@ -11,7 +11,7 @@ const Blog2 = () => {
   };
 
   return (
-    <div>
+    <div className="blog2page">
       <div
         style={{
           position: "relative",

@@ -16,7 +16,7 @@
 }
 @media screen and (min-width: 1540px) {
     .blogcard, .blogcard4{
-       max-width: 470px !important;
+       max-width: 500px !important;
     }
     #dl2, #dl3{
         position: relative;

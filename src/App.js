@@ -16,6 +16,11 @@ import Blog4 from './components/Blog4';
 import logo from './image/logo.png';
 
 import './styles.css';
+
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
+
 function App() {
   return (
     <Router>
@@ -27,10 +32,10 @@ function App() {
           </div>
           </Link>
           <nav>
-            <Link to="/home">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/practice-area">Practice Area</Link>
-            <Link to="/contact-us">Contact Us</Link>
+            <Link to="/home" onClick={scrollToTop}>Home</Link>
+            <Link to="/about" onClick={scrollToTop}>About</Link>
+            <Link to="/practice-area" onClick={scrollToTop}>Practice Area</Link>
+            <Link to="/contact-us" onClick={scrollToTop}>Contact Us</Link>
           </nav>
         </header>
 

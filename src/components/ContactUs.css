@@ -309,7 +309,7 @@
       top: -40%;
     }
     .mapframe iframe{
-      width: 100%;
+      width: 100% !important;
     }
     .contactfooter{
       height: 0vh !important;
